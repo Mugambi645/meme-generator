@@ -1,4 +1,4 @@
-function Overlay(props) {
+ function Overlay(props) {
   return (
     <div
       className={props.overlayHidden ? 'overlay hidden' : 'overlay visible'}
