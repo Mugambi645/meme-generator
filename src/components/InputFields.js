@@ -50,6 +50,7 @@ function download(downloadUrl, fileText) {
 function InputFields(props) {
   return (
     <div className="inputFields">
+<div>
       <div>
         <label htmlFor="topText">Top Text</label>
         <input
@@ -90,6 +91,7 @@ function InputFields(props) {
         Download
       </button>
     </div>
+ </div>
   );
 }
 export default InputFields;
